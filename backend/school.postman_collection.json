@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "8303f1bc-d376-4c9b-b16b-095fda6a5f30",
+		"name": "school",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42722645",
+		"_collection_link": "https://www.postman.com/altimetry-technologist-9078133/workspace/myworkplace/collection/42722645-8303f1bc-d376-4c9b-b16b-095fda6a5f30?action=share&source=collection_link&creator=42722645"
+	},
+	"item": [
+		{
+			"name": "addSchool",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/addSchool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSchoolList",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
